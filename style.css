@@ -1,0 +1,32 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+#container{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: auto;
+}
+p{
+    margin-bottom: 0%;
+}
+.caja{
+    padding: 3%;
+    border: 1px solid;
+}
+.header{
+    text-align: center;
+    color:white;
+    background-color: rgb(172, 32, 32);
+    border: 2px black;
+    padding: 0.05%;
+}
+.button{
+    text-align: center;
+    background-color: black;
+    border: 1px black;
+    padding: 5%;
+
+}
+

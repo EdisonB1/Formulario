@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h2>Formulario de Registro</h2>
+
+        </div>
+        <div class="caja">
+            <div>
+                <div>
+                    <p><b> E-mail:</b></p>
+                    <input type="text">
+                </div>
+                <br>
+                <div>
+                    <p><b> Nombre completo: </b></p>
+                    <input type="text">
+                </div>
+                <br>
+                <div>
+                    <p><b> Sexo:</b></p>
+                    <select name="select">
+                        <option value="Hombre"> Hombre </option>
+                        <option value="Mujer" selected> Mujer </option>
+                        <option value="Otro"> Otro </option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <p><b> Fecha de Nacimiento:</b></p>
+                    <input type="date">
+
+                </div>
+                <br>
+                <div>
+                    <p><b> Intereses</b></p>
+                    <input type="checkbox" name="Computers" id="com" value="com">
+                    <label for="com">Computers
+                    <br>
+                    <input type="checkbox" name="sports" id="sports" value="sports">
+                    <label for="sports">Sports</label>
+                    <br>
+                    <input type="checkbox" name="games" id="game" value="game">
+                    <label for="game">Games</label>
+                    <br>
+                    <input type="checkbox" name="music" id="music" value="music">
+                    <label for="m">Music</label>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button> Registrar</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
